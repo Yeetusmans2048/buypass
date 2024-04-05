@@ -14,7 +14,7 @@ There's an obscure API in most browsers called the [Payment Request API](https:/
 - There's no good way to make the text in the window larger.
 - This won't bypass network filters.
 - You can't log into non-school accounts.
-- Securly does not care and still blocks it anyways
+- Some filters can still block this
 
 ## How to set it up yourself
 
