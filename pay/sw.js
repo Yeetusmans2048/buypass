@@ -14,7 +14,7 @@ self.addEventListener("paymentrequest", async (event) => {
       const url = event.methodData[0].data?.url;
 
       client.postMessage({
-        url: url.match(/https?:\/\//) ? url : "https://duckduckgo.com"
+        url: url.match(/https?:\/\//) ? url : "https://www.google.com"
       });
 
     } catch (error) {
